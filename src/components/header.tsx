@@ -12,7 +12,7 @@ const Header = () => {
   ];
   return (
     <div className="absolute w-full z-10">
-      <div className="flex justify-between container mx-auto text-white px-12 items-center">
+      <div className="flex justify-between container mx-auto text-white px-12 py-8 items-center">
         <Link className="text-6xl font-bold" href="/">
           Home
         </Link>
