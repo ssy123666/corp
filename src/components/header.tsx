@@ -12,11 +12,11 @@ const Header = () => {
   ];
   return (
     <div className="absolute w-full z-10">
-      <div className="flex justify-between container mx-auto text-white p-8 items-center">
+      <div className="flex justify-between container mx-auto text-white p-12 items-center">
         <Link className="text-6xl font-bold" href="/">
           Home
         </Link>
-        <div className="text-4xl space-x-20">
+        <div className="text-4xl space-x-14">
           {linkData.map((link) => (
             <Link
               key={link.path}
